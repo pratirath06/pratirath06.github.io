@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--
+    - primary meta tags
+  -->
+  <title>Pratirath Gupta</title>
+  <meta name="title" content="Pratirath Gupta">
+  <meta name="description" content="This is Pratirath's personal portfolio">
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="assets/images/P-logo.jpeg" type="image/svg+xml">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/font/font.css">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/profile.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.png">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+
+</head>
+
+<body id="top">
+
+  <!--
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <span class="line"></span>
+  </div>
+
+
+
+
+
+  <!--
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/PG's-logos_transparent.png" width="99" height="55" alt="logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/PG's-logos_transparent.png" width="99" height="55" alt="logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <h3><a href="#home" class="navbar-link" data-nav-link>Home</a></h3>
+          </li>
+
+          <li>
+            <h3><a href="#about" class="navbar-link" data-nav-link>About</a></h3>
+          </li>
+
+          <li>
+            <h3><a href="#project" class="navbar-link" data-nav-link>Project</a></h3>
+          </li>
+
+          <li>
+            <h3><a href="#contact" class="navbar-link" data-nav-link>Contact</a></h3>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="https://github.com/pratirath06" class="btn btn:hover">
+        <span class="span">Lets go GitHub?</span>
+
+        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+      </a>
+
+      <button class="nav-open-btn btn:hover" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!--
+        - #HERO
+      -->
+
+      <div class="hero text-center" id="home">
+        <div class="container">
+
+          <div class="banner-outline has-after">
+
+            <div class="hero-banner img-holder has-after" style="--width: 500; --height: 680;" data-tilt>
+              <img src="./assets/images/profile.jpg" width="500" height="680" alt="Drew Hays" class="img-cover">
+            </div>
+
+            <span class="span title">Pratirath Gupta</span>
+
+          </div>
+
+          <div class="hero-content">
+
+            <h1 class="h1 title">Hello World, Welcome to my Personal Portfolio.</h1>
+
+            <div class="wrapper">
+              <a href="./assets/CV/PratirathGuptaCV.pdf" class="btn btn:hover">
+                <span class="span">Download CV</span>
+
+                <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+              </a>
+
+              <p class="hero-text">
+                Scroll Down to <br> Know More!
+              </p>
+            </div>
+
+          </div>
+
+          <img src="./assets/images/hero-shape-1.png" width="559" height="232" alt="shape" class="shape shape-1">
+
+          <img src="./assets/images/hero-shape-2.png" width="1358" height="497" alt="shape" class="shape shape-2">
+
+        </div>
+      </div>
+
+
+
+
+
+      <!--
+        - #SERVICE
+      -->
+
+      <section class="service text-center" aria-label="my services" id="service">
+        <div class="container">
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-1.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Web <br>
+                    Development
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-2.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Data <br>
+                    Science
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-3.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Artificial <br>
+                    Intelligence
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-4.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Mobile <br>
+                    Application
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about-me" id="about">
+        <div class="container">
+
+          <div class="tab-container">
+
+            <ul class="tab-btn-list">
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6 active" data-tab-btn="about">About Me</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="skillset">Skillset</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="education">Education</button>
+              </li>
+
+
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="leadership">Leadership</button>
+              </li>
+
+            </ul>
+
+            <div class="tab-content active" data-tab-content="about">
+              <div class="grid-list">
+
+                <figure class="about-banner img-holder" style="--width: ; --height: ;" data-tilt>
+                  <img src="./assets/images/about-banner.jpg" width="570" height="420" loading="lazy" alt="about banner"
+                    class="img-cover">
+                </figure>
+
+                <div class="about-content">
+
+                  <h2 class="h4 title section-title">
+                    A very small stage in a vast cosmic.
+                  </h2>
+
+                  <p class="section-text">
+                    I am a student pursuing a dual degree in BS from IIT Madras and B.Tech from Amrita Vishwa Vidyapeetham, with a focus on Data Science and Artificial Intelligence. I am proficient in multiple programming languages like C, Java, Python, Rust, and JavaScript and have experience in leadership and team management
+                  </p>
+
+                  <ul class="about-list">
+
+                    <li class="about-item">
+                      <p class="list-title">Name</p>
+
+                      <span class="span title h5">Pratirath Gupta</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Phone Number</p>
+
+                      <span class="span title h5">+91 629 664 1821</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Email Address</p>
+
+                      <span class="span title h5">pratirathgupta51@gmail.com</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Social Network</p>
+
+                      <div class="social-list">
+
+                        <a href="#" class="social-link h6" title="Facebook">Fb.</a>
+                        <a href="#" class="social-link h6" title="Instagram">In.</a>
+                        <a href="linkedin.com/in/pratirathgupta" class="social-link h6" title="Linkedin">Ln.</a>
+                        <a href="github.com/pratirath06" class="social-link h6" title="GitHub">Gh.</a>
+
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </div>
+
+            <div class="tab-content" data-tab-content="skillset">
+              <div class="grid-list">
+
+                <div class="skill-content">
+
+                  <h3 class="h4 title section-title">
+                    Skill is better than Strength!
+                  </h3>
+
+                  <p class="section-text">
+                    Various important skillsets abilities.
+                  </p>
+
+                  <ul class="skill-list">
+
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">Data Structure & Algorithm</span>
+
+                        <span class="value">90%</span>
+                      </div>
+
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%"></div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">Problem Solving</span>
+
+                        <span class="value">90%</span>
+                      </div>
+
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%"></div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">Website Development</span>
+
+                        <span class="value">85%</span>
+                      </div>
+
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 85%"></div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <figure class="skill-banner img-holder" style="--width: 570; --height: 420;" data-tilt>
+                  <img src="./assets/images/skill-banner.jpg" width="570" height="420" loading="lazy" alt="skill banner"
+                    class="img-cover">
+                </figure>
+
+              </div>
+            </div>
+
+            <div class="tab-content" data-tab-content="education">
+              <div class="skill-content">
+
+                <h3 class="h4 title section-title">
+                  Education is one thing no one can take away from you!
+                </h3>
+
+                <h3 class="section-text">
+                  Pursuing dual degree from IITM & Amrita Vishwa Vidyapeetham.
+                </h3>
+
+                <ul class="skill-list">
+
+                  <li>
+                    <h3 class="skill-wrapper">
+                      <span class="span">B.S. in Data Science & Application, <br>Indian Institute of Technology Madras  (2022-2026)</span>
+
+                      <span class="value">CGPA : 8.0</span>
+                    </h3>
+
+                    <div class="progress-bar">
+                      <div class="progress-fill" style="width: 80%"></div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <h3 class="skill-wrapper">
+                      <span class="span">B.Tech in Compter Science with Artificial Intelligence, <br>Amrita Vishwa Vidyapeetham  (2022-2026)</span>
+
+                      <span class="value">CGPA : 8.9</span>
+                    </h3>
+
+                    <div class="progress-bar">
+                      <div class="progress-fill" style="width: 89%"></div>
+                    </div>
+                  </li>
+              </div>
+            </div>
+
+
+
+
+            <div class="tab-content" data-tab-content="leadership">
+              <div class="skill-content">
+
+                <h3 class="h4 title section-title">
+                  "Leadership is the capacity ro translate vision into reality"
+                </h3>
+
+                <h2 class="section-text">
+                </h2>
+
+                <ul class="skill-list">
+
+                  <li>
+                    <h2 class="skill-wrapper">
+                      <span class="span">ChairPerson, <br>ACM Student Chapter Amrita Vishwa Vidyapeetham Amaravati</span>
+
+                      <span class="value">Sept 2023 - Present</span>
+                    </h2>
+
+
+                  </li>
+
+                  <li>
+                    <h2 class="skill-wrapper">
+                      <span class="span">Co-Founder, <br>Technity Club, Amrita Vishwa Vidyapeetham Amaravati</span>
+
+                      <span class="value">  Nov 2022-Present</span>
+                    </h2>
+
+
+                  </li>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #CTA
+      -->
+
+      <section class="section cta" aria-label="work with me">
+        <div class="container">
+
+          <h2 class="title h2 section-title text-center">
+            Let's Work Together On A Project!
+          </h2>
+
+          <a href="https://www.linkedin.com/in/pratirathgupta/" class="btn btn:hover">
+            <span class="span">Connect Now!</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #PROJECTS
+      -->
+
+      <section class="section project" aria-label="my latest projects" id="project">
+
+        <ul class="slider-list">
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/Firefly peoples wearing surgical masks to prevent the dust and virus disease 26004.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Face Mask Recognition System" class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Project</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Face Mask Recognition System using Python</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/Firefly Library containing books in shelf with antique glasses and clock 26004.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Library Management System" class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Web</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Library Management System with both admin and user interfaces</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/Firefly rich old Investor with gold bar in hand and stock market in background 49906.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Daily Investor Notification" class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Project</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Daily Investor Notification</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/Firefly Hotel with customers eating with good night background 1330.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Full Web Development Project With JavaScript" class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Web</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Hotel Management System with BackEnd</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/Firefly My AI Voice Assistant Robot 1330.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Cloud Migration & AWS Services" class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Project</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Personal AI Voice Assistant using Python & OpenAI</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/Firefly A person scanning a QR Code 49906.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Cloud Migration & AWS Services" class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Project</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">QR Code Generator using Python</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+
+      </section>
+
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <section class="section contact" aria-label="contact me" id="contact">
+        <div class="container">
+
+          <h2 class="title h2 section-title">Get In Touch</h2>
+
+          <div class="contact-content">
+
+            <form action="mailto:pratirathgupta51@gmail.com" method="post" enctype="text/plain "class="contact-form">
+
+              <input type="text" name="name" placeholder="Full name" autocomplete="off" required class="input-field">
+
+              <input type="email" name="email_address" placeholder="Email address" autocomplete="off" required
+                class="input-field">
+
+              <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+
+              <textarea name="message" placeholder="Enter message" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn:hover">
+                <span class="span">Send Message</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </button>
+
+            </form>
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.8037695546045!2d86.97390519999999!3d23.682974499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f71ed70bfb170b%3A0xf084f753c108000!2sParbati%20Apartment!5e0!3m2!1sen!2sin!4v1705519278458!5m2!1sen!2sin"
+              width="600" height="450" style="border: 0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+            <ul class="contact-list">
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-1.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <span class="title h6">+91 629 664 1821</span>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-2.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <address class="title h6">
+                    Parbati Appartment, N.S. Road,
+                    Asansol, West Bengal
+                  </address>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-3.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <span class="title h6">pratirathgupta51@gmail.com</span>
+
+                  <span class="title h6">23f1001688@ds.study.iitm.ac.in</span>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        <span>&copy Pratirath Gupta</span>
+      </p>
+
+      <a href="#top" class="back-top-btn">
+        <span class="span">Back To Top</span>
+
+        <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+      </a>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!--
+    - #CUSTOM CURSOR
+  -->
+
+  <div class="cursor-dot" data-cursor></div>
+  <div class="cursor-outline" data-cursor></div>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
